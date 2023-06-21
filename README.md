@@ -43,7 +43,7 @@ from ecomapper.feature_eng import get_solar_data
 from ecomapper.interactive import map_scatter_plot, top_n_map_scatter_plot
 
 #step1: setup the config.yaml with chosen parameters and paths to data(note: this version is current only compatible with Belgian Cities)
-X= create_info_table()
+data= create_info_table()
 #import solar data for mapping to communities
 solar_data = get_solar_data()
 
