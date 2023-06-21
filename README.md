@@ -76,7 +76,7 @@ fig = top_n_map_scatter_plot(community.X_selected,solar_data, radius=500)
 
 fig.plot()
 ```
-![image](imgs/Screenshot 2023-06-15 112634 (1).png)
+![image](imgs/clusters.png)
 
 ## Package Contents
 ### algorithms
