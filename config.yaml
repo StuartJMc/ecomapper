@@ -1,0 +1,35 @@
+
+Params:
+  crs_address: 3812
+  crs_sectors: 31370
+  electricity_price: 0.3377
+  gas_price: 0.0939
+  green_energy_ratio: 0.2147
+  municipality: Gent
+  sector_id_prefix: '44021'
+  solar_panel_cost_per_m2: 289
+  year: '2019-01-01'
+  zip_codes:
+  - '9000'
+  - '9030'
+  - '9031'
+  - '9032'
+  - '9040'
+  - '9041'
+  - '9042'
+  - '9050'
+  - '9051'
+  - '9052'
+Paths:
+  address_path: ../data/gent_street_addresses.parquet
+  average_income_path: ../data/income-with-sector-codes.csv
+  bimd_path: ../data/BIMD-20230607T204250Z-001/BIMD/BIMD2011_DOMAINS_STATISTICAL_SECTOR_ELLIS_WIDE.csv
+  energy_consumption_path: ../data/ghent_data/energy_consumption_street_level.csv
+  energy_decentral_production_path: ../data/ghent_data/energy_decentral_production.csv
+  ev_points_path: ../data/ghent_data/ev_points.csv
+  rent_prices_path: ../data/ghent_data/ghent_rent_prices.csv
+  sector_boundaries_path: ../data/sh_statbel_statistical_sectors_31370_lastversion.geojson/sh_statbel_statistical_sectors_31370_20220101.geojson/sh_statbel_statistical_sectors_31370_20220101.geojson
+  solar_path: ../data/ghent_data/pv_data/Gent_SOL_v3.shp
+  stat_sector_mapping_path: ../data/be-dictionary.csv
+  stat_sector_populations: ../data/OPENDATA_SECTOREN_2022.xlsx
+  urban_atlas_path: ../data/land_use/BE003L2_GENT_UA2012.shp
