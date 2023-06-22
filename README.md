@@ -104,5 +104,37 @@ fig.plot()
 
 ## References
 
-
+- https://opendata.fluvius.be/explore/dataset/1_06a-verbruiksgegevens-per-statistische-sector-met-nace-sector-en-nace-subsecto/information/
+- https://opendata.fluvius.be/explore/dataset/1_21-aangemelde-oplaadpunten-voor-ev/information/
+- https://opendata.fluvius.be/explore/dataset/1_20-lijst-van-decentrale-productie-installaties-gekoppeld-aan-het-distributiene/information/
+- https://gent.buurtmonitor.be/
+- https://www.immoweb.be/en
+- https://github.com/mathiasleroy/Belgium-Geographic-Data/tree/master
+- https://www.geo.be/catalog/details/d5f503fe-c228-48a6-9f00-927c95bbd450?l=en
+- https://www.geo.be/catalog/details/ca0fd5c0-8146-11e9-9012-482ae30f98d9?l=en
+- https://github.com/oSoc19/best/tree/master
+- https://www.brain-ellis.be/blog/10-towards-the-development-of-a-belgian-index-of-multiple-deprivation
+- https://land.copernicus.eu/user-corner/technical-library/urban_atlas_2012_2018_mapping_guide_v6.3
+- https://www.europarl.europa.eu/RegData/etudes/BRIE/2022/733583/EPRS_BRI(2022)733583_EN.pdf
+- https://www.energyprice.be/blog/energy-poverty-in-belgium/#:~:text=Measured%20energy%20poverty%20%E2%80%93%20this%20affects,that%20it%20becomes%20abnormally%20low
+- https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Natural_gas_price_statistics
+- https://www.odyssee-mure.eu/publications/efficiency-trends-policies-profiles/belgium-country-profile-english.pdf
+- https://www.energyprice.be/blog/energy-poverty-in-belgium/#:~:text=Measured%20energy%20poverty%20%E2%80%93%20this%20affects,that%20it%20becomes%20abnormally%20low
+- https://land.copernicus.eu/user-corner/technical-library/urban_atlas_2012_2018_mapping_guide_v6.3
+- https://www.greenmatch.co.uk/blog/2014/08/what-is-the-installation-cost-for-solar-panels
+- https://gent.buurtmonitor.be/
+- https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html
+- https://scikit-learn.org/stable/modules/generated/sklearn.cluster.SpectralClustering.html
+- https://hdbscan.readthedocs.io/en/latest/how_hdbscan_works.html
+- https://geodacenter.github.io/pygeoda/spatial_clustering.html
+- https://pysal.org/spopt/
+- https://geodacenter.github.io/data-and-lab/Guerry/
+- http://darribas.org/gds_scipy16/ipynb_md/03_spatial_weights.html
+- http://geodacenter.github.io/workbook/9c_spatial3/lab9c.html
+- https://arxiv.org/pdf/1910.05113.pdf
+- http://darribas.org/gds_scipy16/ipynb_md/07_spatial_clustering.html
+- https://esa.github.io/pygmo2/tutorials/coding_udp_simple.ht
+- https://www.tensorflow.org/agents/tutorials/0_intro_rl
+- https://pysal.org/spopt/
+- https://www.tensorflow.org/agents/tutorials/1_dqn_tutorial#plots
 
