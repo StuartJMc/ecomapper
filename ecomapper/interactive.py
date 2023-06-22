@@ -1,13 +1,4 @@
 """Script to create an interactive dashboard for the MVP"""
-# Things to add
-# Limit on number in cluster
-# summary stats in tooltip
-# mapping of clusters to solar locations
-# filter for top n locations for each cluster or for whole
-# Add filtering off map or table?
-# filtering for residential status
-# add control for dinstance from centroid cluster
-# add calculated to table
 
 import numpy as np  # np mean, np random
 import pandas as pd  # read csv, df manipulation
