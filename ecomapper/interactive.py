@@ -159,6 +159,60 @@ def get_possible_sites(df, df_solar, radius):
 
     return df_solar_reduced
 
+def get_top_percentage(data, column, percentage):
+    sorted_data = data.sort_values(column, ascending=False)
+    threshold = sorted_data[column].quantile((100 - percentage) / 100)
+    top_data = sorted_data[sorted_data[column] >= threshold]
+    return top_data
+
+def plot_explained_variance(data, max_dimensions=None):
+    # Perform PCA
+    pca = PCA(n_components=max_dimensions)
+    pca.fit(data)
+
+    # Calculate cumulative explained variance ratio
+    explained_variance_ratio = np.cumsum(pca.explained_variance_ratio_)
+
+    # Plot the explained variance ratio
+    plt.figure(figsize=(8, 6))
+    plt.plot(
+        range(1, len(explained_variance_ratio) + 1),
+        explained_variance_ratio,
+        marker="o",
+    )
+    plt.xlabel("Number of Dimensions")
+    plt.ylabel("Cumulative Explained Variance Ratio")
+    plt.title("Explained Variance Ratio vs. Number of Dimensions")
+    plt.xticks(range(1, len(explained_variance_ratio) + 1))
+    plt.grid(True)
+    plt.show()
+
+def plot_summary(gdf, column, coordinates="coordinates"):
+    print("*" * 50)
+    print(f"{column} Summary Statistics:")
+    print("*" * 50 + "\n")
+
+    # Histogram plot
+    plt.figure(figsize=(8, 6))
+    plt.hist(gdf[column], bins=10, edgecolor="black")
+    plt.xlabel(column)
+    plt.ylabel("Count")
+    plt.title(f"{column} Histogram")
+    plt.show()
+
+    # Heatmap on map
+    fig, ax = plt.subplots(figsize=(12, 10))
+    gdf.plot(ax=ax, alpha=0.1, markersize=0.1)
+    gdf.plot(column=column, cmap="YlOrRd", ax=ax, markersize=0.3, legend=True)
+    ax.set_title(f"{column} Heatmap")
+    plt.show()
+
+    # Print summary statistics
+    print(f"{column} Summary Statistics:")
+    print(gdf[column].describe())
+    print(f"Frac Null Values: {gdf[column].isna().sum()/gdf.shape[0]}")
+
+
 
 def main():
     # get data
