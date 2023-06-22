@@ -1,4 +1,4 @@
-# ecomapper
+# ECOmapper
 Opensource package for creating inclusive energy communities
 
 ![image](imgs/scott-goodwill-hKUJRPAAFWo-unsplash.jpg)
