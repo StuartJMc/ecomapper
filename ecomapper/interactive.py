@@ -34,7 +34,7 @@ def get_data() -> pd.DataFrame:
 
 
 @st.cache_data
-def get_solar_data() -> pd.DataFrame:
+def load_solar_data() -> pd.DataFrame:
     """Load solar data
 
     Returns:
