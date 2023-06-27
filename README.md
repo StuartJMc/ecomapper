@@ -67,7 +67,7 @@ community.create(
                 )
 
 #show summary stats of the created comumnities
-coummunity.get_cluster_summary()
+community.get_cluster_summary()
 
 #plot the clusters
 fig = map_scatter_plot(community.X_selected)
